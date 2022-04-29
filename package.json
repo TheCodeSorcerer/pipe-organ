@@ -1,0 +1,16 @@
+{
+  "name": "midi-parse",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kevin DeLand <kevin@delandbeforeti.me> (http://delandbeforeti.me/)",
+  "license": "MIT",
+  "dependencies": {
+    "@tonejs/midi": "^2.0.28",
+    "midi-json-parser": "^8.1.2",
+    "optimist": "^0.5.2"
+  }
+}

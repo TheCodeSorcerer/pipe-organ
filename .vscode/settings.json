@@ -1,0 +1,53 @@
+{
+  "workbench.colorCustomizations": {
+    "activityBar.background": "#17340C",
+    "titleBar.activeBackground": "#204911",
+    "titleBar.activeForeground": "#F7FDF4"
+  },
+
+  "todohighlight.isEnable": true,
+  "todohighlight.isCaseSensitive": true,
+  "todohighlight.defaultStyle": {
+    "color": "red",
+    "backgroundColor": "black",
+    "overviewRulerColor": "#ffab00",
+    "cursor": "pointer",
+    "borderRadius": "2px",
+    "isWholeLine": false
+    //other styling properties goes here ...
+  },
+  "todohighlight.include": [
+      "**/*.js",
+      "**/*.jsx",
+      "**/*.ts",
+      "**/*.tsx",
+      "**/*.html",
+      "**/*.php",
+      "**/*.css",
+      "**/*.md",
+      "**/*.scss"
+  ],
+  "todohighlight.exclude": [
+      "**/node_modules/**",
+      "**/bower_components/**",
+      "**/dist/**",
+      "**/build/**",
+      "**/.vscode/**",
+      "**/.github/**",
+      "**/_output/**",
+      "**/*.min.*",
+      "**/*.map",
+      "**/.next/**"
+  ],
+  "todohighlight.maxFilesForSearch": 5120,
+  "todohighlight.toggleURI": true,
+  "todohighlight.keywords": [
+    {
+      "text": "CORN:",
+      "backgroundColor": "#94D6B4",
+      "color": "#ffffff",
+      "isWholeLine": false
+    }
+  ]
+
+}
